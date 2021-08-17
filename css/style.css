@@ -1,0 +1,99 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding: 0;}
+
+.body{
+    background-color: white;
+    background-image: url("bg_3229.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+}
+section{
+display: flex;
+flex-flow: wrap;
+margin: 2%;
+}
+.contenedora{
+    width: 81.1%;
+    background-color: rgba(255, 255, 255, 0.459);
+    margin-left: 9.5%;
+    border: black 1px solid;
+
+}
+.footer{
+    width: 81.1%;
+    background-image: url("footer.jpg");
+    background-size: cover;
+    margin-left: 9.5%;
+    height: 13%; 
+    margin-top: -2%;
+    border-left: black 1px solid;
+    border-right: black 1px solid;
+}
+
+.personajes{
+	margin: 2%;
+	width: 100%;
+    height: 20%;
+	margin-top: 1%;
+	padding: 2%;
+}
+.personajes div{
+    display: flex;
+   
+}
+.personajes h2{
+    width: 10%;
+    padding: 2%;
+    margin-bottom: -20%;
+}
+.personajes p{
+    display: flex;
+	flex-flow: wrap;
+    padding: 2%;
+    margin-top: -5%;
+  }
+
+.personajes img{
+    width: 35%;
+    height: 70%;
+    border-radius: 60%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    margin-top: 2%;
+}
+.texto{
+    display: flex;
+    flex-flow: wrap;
+    width: 70%;
+    margin-left: 3%;
+    font-size: 18px;
+    margin-top: 2%;
+}
+.texto p{
+    margin-top: -2%;
+}
+.texto a{
+    margin-top: -10%;
+    margin-left: 2%;
+}
+.rex{
+    display: flex;
+    flex-flow: wrap;  
+    width: 100%; 
+}
+.woody p{
+    margin-top: 6%;
+}
+.woody a{
+    margin-top: -2%;
+}
+.rex h2{
+    margin-top: -2%;
+}
